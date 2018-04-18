@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_HarvestingFields", "P01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02_BlackBoxInteger", "P02_BlackBoxInteger\P02_BlackBoxInteger.csproj", "{B31754C1-0729-4739-B987-56DAFCEA21B2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03_BarraksWars", "P03_BarraksWars\P03_BarraksWars.csproj", "{EF696E68-8B80-4EFF-BBD0-D4633E2FADCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B31754C1-0729-4739-B987-56DAFCEA21B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B31754C1-0729-4739-B987-56DAFCEA21B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B31754C1-0729-4739-B987-56DAFCEA21B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF696E68-8B80-4EFF-BBD0-D4633E2FADCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF696E68-8B80-4EFF-BBD0-D4633E2FADCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF696E68-8B80-4EFF-BBD0-D4633E2FADCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF696E68-8B80-4EFF-BBD0-D4633E2FADCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
