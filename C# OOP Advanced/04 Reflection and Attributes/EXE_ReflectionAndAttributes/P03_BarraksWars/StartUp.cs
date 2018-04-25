@@ -7,7 +7,7 @@
     using Microsoft.Extensions.DependencyInjection;
     using System;
 
-    class AppEntryPoint
+    class StartUp
     {
         static void Main(string[] args)
         {
