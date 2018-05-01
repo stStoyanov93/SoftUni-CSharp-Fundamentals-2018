@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03_BarraksWars", "P03_Barr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06_TrafficLights", "P06_TrafficLights\P06_TrafficLights.csproj", "{96E30F12-F4A3-44EF-A406-1355BCFCB1A3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07_InfernoInfinity", "P07_InfernoInfinity\P07_InfernoInfinity.csproj", "{269B48EC-D52A-410A-BFC7-2A6814596F57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{96E30F12-F4A3-44EF-A406-1355BCFCB1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96E30F12-F4A3-44EF-A406-1355BCFCB1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96E30F12-F4A3-44EF-A406-1355BCFCB1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269B48EC-D52A-410A-BFC7-2A6814596F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269B48EC-D52A-410A-BFC7-2A6814596F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269B48EC-D52A-410A-BFC7-2A6814596F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269B48EC-D52A-410A-BFC7-2A6814596F57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

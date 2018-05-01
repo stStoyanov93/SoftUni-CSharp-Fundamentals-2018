@@ -1,0 +1,56 @@
+﻿using System;
+
+public class AddCommand : Command
+{
+    [Inject]
+    private IWeaponRepository repository;
+    [Inject]
+    private IGemFactory gemFactory;
+
+    public AddCommand(string[] data, IWeaponRepository repository, IGemFactory gemFactory)
+        : base(data)
+    {
+        this.repository = repository;
+        this.gemFactory = gemFactory;
+    }
+
+    public IWeaponRepository Repository
+    {
+        get => this.repository;
+        private set => this.repository = value;
+    }
+
+    public override void Execute()
+    {
+        var weaponName = Data[1];
+        var weapon = this.Repository.GetWeapon(weaponName);
+
+        if (weapon == null)
+        {
+            throw new ArgumentException($"{weapon} does not exist!");
+        }
+
+        var addTokens = Data[3].Split();
+        var clarityType = addTokens[0];
+        var gemName = addTokens[1];
+
+        Clarity clarity;
+        Enum.TryParse(clarityType, out clarity);
+
+        if (clarity == 0)
+        {
+            throw new ArgumentException($"Invalid Clarity Type!");
+        }
+
+        var gem = this.gemFactory.CreateGem(gemName, clarity);
+        int index = int.Parse(Data[2]);
+
+        try
+        {
+            weapon.AddGem(index, gem);
+        }
+        catch (Exception)
+        {        
+        }
+    }
+}
